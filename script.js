@@ -78,7 +78,7 @@ function handleCardClick(event) {
     let choice2 = card2.className
 
     if (choice1 === choice2) {
-      cardsFlipped += 2;
+      //cardsFlipped += 2;
       card1.removeEventListener("click", handleCardClick);
       card2.removeEventListener("click", handleCardClick);
       card1 = null;
